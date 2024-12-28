@@ -3,10 +3,23 @@
   font-family: 'Lato', sans-serif;
 }
 
+:root {
+  --primary-color: hsl(160deg, 100%, 30%);
+  --secondary-color-400: hsl(45deg, 100%, 50%);
+  --secondary-color-500: hsl(45deg, 100%, 40%);
+  --gray-100: hsl(0deg, 0%, 100%);
+  --gray-200: hsl(0deg, 0%, 60%);
+  --gray-400: hsl(0deg, 0%, 40%);
+  --gray-500: hsl(0deg, 0%, 30%);
+  --gray-700: hsl(0deg, 0%, 10%);
+  --gray-900: hsl(0deg, 0%, 0%);
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Add styles here! */
