@@ -29,12 +29,12 @@ header {
 }
 
 .max-width-wrapper {
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
 .intro-chunk {
-    padding: 0 20px;
+    padding: 0 4rem 4rem 4rem;
     background-color: var(--white);
 }
 
@@ -53,4 +53,33 @@ header {
 
 .intro-chunk strong {
     color: var(--primary-color);
+}
+
+main {
+    background-color: var(--gray-400);
+    height: 100%;
+}
+
+main section {
+    padding: 2.25rem 4rem;
+}
+
+main .card {
+    background-color: var(--white);
+    padding: 1.25rem;
+    border-bottom: 0.5rem solid var(--gray-200);
+}
+
+main .card  .indented-heading{
+    box-sizing: content-box;
+    overflow: visible;
+    background-color: var(--secondary-color-400);
+    padding: 1.25rem;
+    border-bottom: 0.5rem solid var(--secondary-color-500);
+    margin-left: -1.25rem;
+}
+
+main .card p {
+    color: var(--gray-400);
+    font-size: 1.1rem;
 }
