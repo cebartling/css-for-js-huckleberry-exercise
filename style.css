@@ -71,12 +71,11 @@ main .card {
 }
 
 main .card  .indented-heading{
-    box-sizing: content-box;
-    overflow: visible;
+    width: fit-content;
     background-color: var(--secondary-color-400);
     padding: 1.25rem;
     border-bottom: 0.5rem solid var(--secondary-color-500);
-    margin-left: -1.25rem;
+    margin-left: -32px;
 }
 
 main .card p {
